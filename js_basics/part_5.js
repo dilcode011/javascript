@@ -37,3 +37,11 @@ const url="https://dil.com/dilpreet%12singh";
 
 // console.log(gameName.split('-'));
 
+
+
+// STRING INDICES
+
+let Name="dilpreet singh"
+// console.log(Name[Name.length-1]);         //end string word
+
+
