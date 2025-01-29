@@ -48,4 +48,66 @@ gameCounter++;
 // console.log(null>=1);            //=>false 
 
 
+
+//OPERATORS
+a=10
+b=12
+
+add=a+b
+// console.log(add);     //=>ADD
+
+diff=a-b
+// console.log(diff);    //=>DIFF
+
+mul=a*b
+// console.log(mul);     //=>MUL
+
+div=a/b
+// console.log(div);      //=>DIV
+
+
+
+// OPERATOR PRECENDENCE
+    //  BODMASS
+
+/*    1.() 
+      2.**
+      3.* , / , %
+      4.+ , -
+*/ 
+// EXAMPLE
+// console.log((5+2)/7+1*2);     //=>3
+
+
+// ASSIGNMENT OPERATOR
+let age=19
+age+=2
+// console.log(age);
+
+// UNARY OPERATOR
+age++
+// console.log(age);
+/*
+    ++a  ->    pre
+    a++  ->    post
+*/
+
+
+let num=5;
+let newNum=num++;   //=>6
+newNum=++num;       //=>7
+// console.log(newNum);     /7
+// console.log(newNum);     /7
+
+
+
+// IDENTIFIER RULES
+
+/* 
+ 1.name can contain letter , digit , underscore and dollar
+ 2.name must begin with letter
+ 3.name are case sensitive
+ 4.reserved word cannot be used as names
+*/
+
 //non primitive type return type of (object function) 

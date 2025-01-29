@@ -1,4 +1,5 @@
 // BASICS
+//=>DESCRIPTION OF CODE
 
 const accoutid=12;
 let accemail="dil@gmail.com";
@@ -9,14 +10,14 @@ accouid=1;
 //  console.table([accoutid,accemail,accpass,acccity]);
 
 
-"use strict"; //treat all js code as newer version
+"use strict"; //=>treat all js code as newer version
 
-alert(3+3);      // used in browser not in nodejs
+alert(3+3);      //=>used in browser not in nodejs
 
 //  console.log(3+3);     
 
 
-let name="dilpreet";     //declare variable (string)
+let name="dilpreet";     //=>declare variable (string)
 
 
 let age=19;  //number =>  number 2 to power 53
@@ -30,7 +31,7 @@ let ismarried=false; //*boolean
 
 //  console.log(typeof (name)); 
 
-//string
+//=>string
 
 
 
