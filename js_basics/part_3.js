@@ -100,6 +100,32 @@ newNum=++num;       //=>7
 // console.log(newNum);     /7
 
 
+// LOGICAL OPERATOR
+/*
+  1. &&(AND)
+    ----------
+    T  |  T     =   T
+    T  |  F     =   F
+    F  |  T     =   F
+    F  |  F     =   F
+ 
+
+   2. ||(OR)
+    ----------
+    T  |  T     =   T
+    T  |  F     =   T
+    F  |  T     =   T
+    F  |  F     =   F    
+
+
+    3.!(NOT)
+     ----------
+    T     =   F
+    F     =   T
+
+*/
+
+
 
 // IDENTIFIER RULES
 
