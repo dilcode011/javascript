@@ -79,3 +79,70 @@ switch (DAY) {
         
         break;
 }
+
+
+// CREATE A NUMBER VAR NUM WITH SOME VALUE.NOW PRINT GOOD IF NUM IS DIVISIBLE BY 10 AND PRINT BAD IF NOT
+
+let NUM=12;
+if(NUM%10==0){
+    console.log("good");
+    
+}
+else{
+    console.log("bad");
+}
+
+
+// TAKE USER'S NAME AND AGE FROM USER USING PROMPTS THEN RETURN BACK FOLLOWING STATEMENT TO USER AS AN ALERT 
+
+let NAME=prompt("enter the name")
+let AGE=prompt("enter the age")
+alert(`${NAME} is ${AGE} year old`)
+
+
+// A STRING IS A GOLDEN STRING IF IT STARTS WITH CHAR A OR a AND HAS TOTAL LENGTH GREATER THAN 5 AND NOT IF NOT
+
+let str1="dilpreet"
+if((str1[0]=='A'||str1[0]=='a')&&str1.length>5){
+    console.log("golden string");
+}
+else{
+    console.log("not good");
+    
+}
+
+
+// WRITE A PROGRAM TO FIND THE LARGEST OF 3 NUMBERS
+
+let a=1
+let b=2
+let c=3
+if(a>b){
+    if(a>c){
+        console.log(a,"is largest");
+    }
+    else{
+        console.log(c,"is largest");
+    }
+}
+else{
+    if(b>c){
+        console.log(b,"is largest");
+    }
+    else{
+        console.log(c,"is largest");
+    }
+}
+
+
+// WAP TO CHECK IF 2 NUMBERS HAVE SAME LAST DIGIT.
+
+let n1=32
+let n2=47852
+if((n1%10) == (n2%10)){
+    console.log("number have same last digit which is",n1%10);
+    
+}else{
+    console.log("numbers not have same last digit");
+    
+}
