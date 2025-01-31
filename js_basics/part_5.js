@@ -1,6 +1,6 @@
 // STRINGS
 //=>DESCRIPTION OF CODE
-
+//=>IMMUTABLE 
 
 const name="dilpreet";
 const price=5;
@@ -43,5 +43,40 @@ const url="https://dil.com/dilpreet%12singh";
 
 let Name="dilpreet singh"
 // console.log(Name[Name.length-1]);         //end string word
+
+
+// STRING METHOD
+
+
+//1. TRIM METHOD
+   //=>remove extra space 
+
+let msg="  hello   "
+// console.log(msg.trim());
+
+
+//2. TOUPPERCASE METHOD
+    //=>ALL UPPER CASE
+
+// console.log(msg.toUpperCase());
+
+
+//3. TOLOWERCASE METHOD
+    //=>ALL UPPER CASE
+
+// console.log(msg.toLowerCase());
+
+
+
+// STRING SLICING
+
+let string1="dilpreet singh"
+// console.log(string1.slice(-11));
+
+// REPLACE
+// console.log(string1.replace("dilpreet","Dil"));
+
+// REPEAT
+// console.log(string1.repeat(3));
 
 
