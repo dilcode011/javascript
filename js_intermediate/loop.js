@@ -44,7 +44,76 @@ for(let d=n;d<=n*10;d=d+n){
 
 for(let e=1;e<=3;e++){
     for(let f=1;f<=3;f++){
-        console.log(f);
+        // console.log(f);
         
+    }
+}
+
+
+// DO WHILE LOOP
+  /* 
+   while{cond}{
+      code
+   }
+  */
+ let x=1;
+ while(x<=5){
+    // console.log(x);
+    x++
+ }
+
+
+//  BREAK KEYBOARD
+   //=>LOOP EXECUTION STOP
+
+let y=1;
+while (y<=5) {
+    if (y==3) {
+        break;
+    }
+    // console.log(y);
+}
+
+
+
+
+// LOOP WITH ARRAYS
+
+let fruit=["mango","apple","banana","litchi","orange"]
+for (let v = 0; v < fruit.length; v++) {
+    console.log(v,fruit[v]);    
+}
+
+
+// LOOPS WITH NESTED ARRAYS
+
+let heroes=[["ironman","spiderman","thor"],["superman","wonder women","flash"]]
+for(let r=0;r<heroes.length;r++){
+    // console.log(heroes[r]);
+for(l=0;l<heroes[l].length;l++) {
+    // console.log(`l=${l},${heroes[r][l]}`);
+    
+}
+}
+
+// FOR-OF LOOP
+  /*
+    for(elements of collection){
+       //do code 
+    }
+  */
+
+let fruity=["mango","apple","banana","litchi","orange"]
+for(fruits of fruity){
+    // console.log(fruits);
+}
+
+
+// NESTED FOR-OF LOOP
+
+let he=[["ironman","spiderman","thor"],["superman","wonder women","flash"]]
+for(list of he){
+    for(name of list){
+    // console.log(name);
     }
 }
