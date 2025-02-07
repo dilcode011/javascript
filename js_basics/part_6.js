@@ -36,3 +36,15 @@ const min=11
 const max=22
 
 // console.log(Math.floor(Math.random() *  (max-min+1)) + min);           //=>21
+
+
+// RANDOM INTEGERS
+
+let stepwise= Math.random()        //generate random number
+num=num*10                      //give number in the range of 1 to 10
+num=Math.floor(num)              //remove decimal number
+num=num+1                        //to get 10 in this
+
+    
+
+//====>  let stepwise(Math.floor(Math.random()*10))+1
