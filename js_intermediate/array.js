@@ -95,3 +95,81 @@ let num=[[1,2],[3,4],[5,6]]
 // console.log(num[1]);        //[ 3, 4 ]
 
 
+
+// ARRAY METHODS
+
+//ForEach
+     /*
+        arr.forEach(some function definition or name);
+     */
+
+let arr=[1,2,3,4,5];
+
+let print=function(el){
+   // console.log(el);
+};
+arr.forEach(print)
+
+
+
+arr.forEach(function(el){
+   // console.log(el);
+   
+});
+
+
+
+arr.forEach((el)=>{
+   // console.log(el);
+   
+});
+
+
+let array=[{
+   name:"dil",
+   marks:78
+},
+{
+   name:"preet",
+   marks:89
+},
+{
+   name:"singh",
+   marks:98
+}];
+
+array.forEach((students) => {
+   // console.log(students.marks);
+   
+});
+
+
+// MAP
+     /*
+        let newarr=arr.map(some function definition or name);
+     */
+
+        let number=[1,2,3,4];
+        let double=number.map(function(el){
+         return el*2;
+        });
+      //   console.log(double);
+        
+
+      // array
+let gpa=students.map((el)=>{
+   return marks/10;
+});
+console.log(gpa);
+
+
+// FILTER
+     /*
+        let newarr=arr.filter(some function definition or name);
+     */
+
+let numbers=[2,4,1,5,6,7,8,9];
+let even=numbers.filter((numbs)=>{
+   return numbs%2==0;
+});
+console.log(even);
