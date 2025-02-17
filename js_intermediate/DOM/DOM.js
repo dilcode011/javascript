@@ -52,10 +52,67 @@ console.dir(document.body.childNodes[3].innerText="hello")
 
 // By Id
 
-// let heading=document.getElementById("headingone")
-// console.dir(heading)
+let heading=document.getElementById("headingone")
+console.dir(heading)
 
 // By Class
 
-// let headings=document.getElementsByClassName("headingone")
-// console.dir(headings)
+let headings=document.getElementsByClassName("headingone")
+console.dir(headings)
+
+
+// .By Tag
+
+let para=document.getElementsByTagName("p")
+console.dir(para);
+
+
+
+// QUERY SELECTOR
+/*
+    1.document.queryselector("myid/myclass/tag")
+         -->return first element
+
+    2.document.queryselectorall("myid/myclass/tag")   
+         -->return a nodelist  
+*/ 
+
+// queryselector
+let element1=document.querySelector("p")
+console.dir(element1)
+
+
+// queryselectorall
+let element2=document.querySelectorAll("p")
+console.dir(element2)
+
+
+// Properties
+/*
+    1.tagname - returns tag for element nodes
+    2.innertext - returns the text content of the element and all its children
+    3.innerHTML - returns the plain text or HTML contents in the element
+    4.textcolumn - returns textual content even for hidden elements
+*/ 
+
+
+// Attributes
+/*
+   1.getAttribute(atr)
+     --> to get the attributes value
+
+   2.setAttribute(atr,value)
+     --> to set the attribute value th
+*/
+
+// Style
+/*
+    node.style
+*/ 
+
+
+let div=document.querySelector("div")
+console.log(div);
+let id=div.getAttribute("id")
+console.log(id)
+
