@@ -116,3 +116,30 @@ console.log(div);
 let id=div.getAttribute("id")
 console.log(id)
 
+
+// TEXT CONTENT
+var btn=document.querySelector("button");
+btn.textContent="Click Me";                  //change the name in html
+
+var h1 =document.querySelector("h1");
+h1.textContent += "dilpreet";
+
+// style
+h1.style.color="red";
+h1.style.fontFamily="gilroy";
+
+// CLASS LIST
+//=>To add the class to element
+h1.classList.add("makeitred");
+
+//=>To remove the class 
+h1.classList.remove("makeitred");
+
+// CREATE AND DELETE ELEMENT
+
+var h2=document.createElement('h2');
+
+h2.textContent="hello";      // add content
+h2.classList.add("makeitred");     // create class
+document.querySelector("body").appendChild(h2);    //append in html
+document.querySelector("body").removeChild(h2);    // delete the element from html
