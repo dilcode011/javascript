@@ -1,6 +1,15 @@
 // ASYNCHRONOUS JS
      //=>JS IS SYNCHRONOUS
     //=>ONE BY ONE  
+    /*
+               Having Pause
+                    |
+        ---                   ---
+        |           |            |
+    Network    Write/Read     Time Fn
+    Calls         Files
+    */
+
 
 
 // IT IS IN SERIALWISE
@@ -28,3 +37,12 @@ setTimeout(()=>{
 },1000)
 console.log("IS");
 
+
+
+function sayHello(){
+    console.log("i love her");
+}
+setTimeout(()=>{
+    console.log();
+    
+})
